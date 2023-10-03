@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Page</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awsome -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+      <section class="game-section">
+      <div class="section-center game-center">
+        <div id="loader"></div>
+        <div id="game" class="form game-form hidden">
+          <header class="game-header">
+            <div class="score-container ">
+              <div class="score">
+                  <div class="value-container">
+                      <span class="score-span">0</span></div>
+                    </div>
+              <h5>Points</h5>
+            </div>
+            <!-- <div class="live-line-container">
+                <button class="btn footer-btn line fifty-fifty">50 / 50 </button>
+              <button class="btn footer-btn line">Ask Host</button>
+            </div> -->
+            <div class="time-container">
+              <div class="time-spinner">
+                <div class="time time2"><span class="time-span">60</span></div>
+              </div>
+              <h5>Sec.</h5>
+            </div>
+          </header>
+          <article class="game-article">
+            <div class="host-container">
+              <h5 class="showAnswer hidden">The answer is.... <span class="tell"></span></h5>
+              <h5 class="showHostAnswer hidden">The answer is.... <span class="tell1"></span> 😀</h5>
+            </div>
+            <div class="game-info-container">
+              <div class="question-container">
+                <h5 id="question">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quaerat explicabo nesciunt vero itaque nobis.</h3>
+              </div>
+              <div class="choice-container">
+                  <div class="cell cells cell-1 answer" id="1" data-c="1">
+                      <p class="answer-container">
+                          <span class="choice-prefix">.A: </span><span class="choice-text" data-number="1">Choice 1</span>
+                        </p>
+                    </div>
+                    <div class="cell cells cell-2" id="2" data-c="2">
+                        <p class="answer-container">
+                            <span class="choice-prefix">.B:</span><span class="choice-text" data-number="2">Choice 2</span>
+                        </p>
+                    </div>
+                    <div class="cell cells cell-3" id="3" data-c="3">
+                        <p class="answer-container">
+                            <span class="choice-prefix">.C:</span><span class="choice-text" data-number="3">Choice 3</span>
+                        </p>
+                    </div>
+                    <div class="cell cells cell-4" id="4" data-c="4">
+                        <p class="answer-container">
+                            <span class="choice-prefix">.D:</span><span class="choice-text" data-number="4">Choice 4</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </article>
+          <div class="game-footer">
+            <button class="btn footer-btn line fifty-fifty btn-block">50 / 50 </button>
+              <button class="btn footer-btn line hosts btn-block">Ask Host</button>
+              <!-- <button class="btn footer-btn btn-block">Next Question</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.2/qs.min.js"
+      integrity="sha512-vCegEXqPUYpZsTGz2lk0jaQ1psxtFeniVJACAXhMVxuoYa/N4nZkjoVFOxLwP7uGeQOoemiz7DQrIpRTj4IBPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./game.js"></script>
+  </body>
+</html>

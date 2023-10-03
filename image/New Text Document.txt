@@ -1,0 +1,30 @@
+<main class="section-center">
+      <div class="container">
+        <article>
+          <div class="heading-text-container">
+            <h2>TrivaiMingle Pro</h2>
+          </div>
+          <div class="paragraph-text-container">
+            <p>
+              Get ready to embark on a thrilling journey where chat meets
+              trivia, and fun knows no bounds. If you're tired of the same old
+              routine and looking for a fresh and exciting way to connect with
+              friends, family, and fellow trivia enthusiasts, you've come to the
+              right place.
+            </p>
+          </div>
+          <div class="button-container">
+            <button class="btn">logIn</button>
+            <button class="btn">SignUp</button>
+          </div>
+        </article>
+        <div class="img-container">
+          <img src="./image/home.jpg" alt="home" class="img" />
+        </div>
+        <div class="footer-container">
+          <p class="copyright">
+            copyright &copy; TrivaiMingle Pro <span id="date"></span>
+          </p>
+        </div>
+      </div>
+    </main>

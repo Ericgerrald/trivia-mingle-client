@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game End Page</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awsome -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section class="end-section">
+      <div class="section-center end-center">
+        <form class="form end-form">
+          <span class="hidden" id="autoType1"></span>
+          <span id="autoType2"></span>
+          <br />
+          <span class="youLost hidden">
+            😒 <span class="lose">You Lost !!!</span>
+          </span>
+          <span class="youWon hidden">
+            😀 <span class="won"> You Won !!!</span>
+          </span>
+          <h3>You score: <span id="userScore"></span></h3>
+          <span class="code hidden"></span>
+
+          <!-- <button class="btn btn-block" id="end-btn">Play again</button> -->
+          <a href="./login.html" class="btn btn-block" id="end-btn"
+            >play again</a
+          >
+        </form>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.2/qs.min.js"
+      integrity="sha512-vCegEXqPUYpZsTGz2lk0jaQ1psxtFeniVJACAXhMVxuoYa/N4nZkjoVFOxLwP7uGeQOoemiz7DQrIpRTj4IBPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./end.js"></script>
+    <!-- <script src="./game.js"></script> -->
+  </body>
+</html>

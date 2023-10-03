@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awsome -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container section-center">
+        <form action="" id="form" class="form">
+          <h4>Login</h4>
+
+          <div class="form-row">
+            <label for="email" class="form-label">email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input input"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="password" class="form-label">password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-input input"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-block">login</button>
+          <small class="form-alert loginA">Invalid Credentials</small>
+          <p>
+            Not a member yet?
+            <a class="signup-a" href="/register.html"
+              ><span class="sign-up">Register</span></a
+            >
+          </p>
+        </form>
+      </div>
+    </main>
+    <!-- Javascript -->
+    <script src="/login.js"></script>
+  </body>
+</html>

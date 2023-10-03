@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awsome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="chat-container2">
+      <div class="messageHeader2">
+        <div class="mingleCenter2">
+          <!-- Start of header -->
+          <button class="nav-button">
+            <a href="/login.html"><i class="fa-solid fa-power-off"></i></a>
+          </button>
+          <h5 class="c5" id="room-name"></h5>
+          <button class="nav-button" id="btn-game">
+            <i class="fa-solid fa-gamepad"></i>
+          </button>
+          <!-- <button class="nav-button" id="scoreBtn">
+            <a href="#"><i class="fa-solid fa-file"></i></a>
+          </button> -->
+          <button class="nav-button" id="userBtn">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+          </button>
+          <!-- end of header -->
+        </div>
+      </div>
+      <!-- start of user -->
+      <ul class="nav-users" id="links"></ul>
+      <!-- end of user -->
+      <!-- start of recent scores -->
+      <!-- <ul class="high-scores" id="links">
+        <h5>Recent Scores</h5>
+        <li>Uche <span>30</span> Pts</li>
+        <li>Hanna <span>30</span> Pts</li>
+        <li>Janet <span>30</span> Pts</li>
+        <li>Hermosa <span>30</span> Pts</li>
+      </ul> -->
+      <!-- end of recent scores -->
+      <div class="messageMessage2">
+        <div class="messageCenter2">
+          <div class="seeMessage">
+            <!-- start of message -->
+
+            <!-- end of message -->
+            <!-- start of message -->
+            <!-- <div class="app message-mm">
+              <div class="message message-app">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, repudiandaejhsbhg ahabhahsahjsa .
+                </p>
+                <p class="meta meta-t">9:12pm</p>
+              </div>
+            </div> -->
+            <!-- end of message -->
+            <!-- start of message -->
+            <!-- <div class="app message-mm">
+              <div class="message message-app">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, repudiandaejhsbhg ahabhahsahjsa .
+                </p>
+                <p class="meta meta-t">9:12pm</p>
+              </div>
+            </div> -->
+            <!-- end of message -->
+            <!-- start of message -->
+            <!-- <div class="app message-mm">
+              <div class="message message-app">
+                <p class="text">hi</p>
+                <p class="meta meta-t">9:12pm</p>
+              </div>
+            </div> -->
+            <!-- end of message -->
+            <!-- start of message -->
+            <!-- <div class="message-mm she">
+              <div class="message message-self">
+                <p class="text">Lorem ipsum</p>
+                <p class="meta meta-t">9:12pm</p>
+              </div>
+            </div> -->
+            <!-- end of message -->
+          </div>
+        </div>
+      </div>
+      <div class="messageFooter2">
+        <div class="footerCenter2">
+          <form action="" class="tbl" id="form">
+            <div class="footerMessage2">
+              <input
+                type="text"
+                id="messageInput"
+                class="form-input footer-input foot"
+              />
+              <button type="submit" class="nav-button f-btn">
+                <i class="fa-solid fa-paper-plane fa-fa-hh"></i>
+              </button>
+            </div>
+            <!-- <input class="inputLast" type="text" /> -->
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.2/qs.min.js"
+      integrity="sha512-vCegEXqPUYpZsTGz2lk0jaQ1psxtFeniVJACAXhMVxuoYa/N4nZkjoVFOxLwP7uGeQOoemiz7DQrIpRTj4IBPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://trivia-mingle-api.onrender.com/socket.io/socket.io.js"></script>
+    <script src="/chat.js"></script>
+  </body>
+</html>
